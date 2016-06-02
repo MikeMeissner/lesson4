@@ -76,11 +76,14 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="courses.aspx" />
     <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
     <Content Include="Default.aspx" />
+    <Content Include="departments.aspx" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="students.aspx" />
     <Content Include="User Controls\jumbotron.ascx" />
     <Content Include="User Controls\NavBar.ascx" />
     <Content Include="packages.config" />
@@ -123,12 +126,33 @@
     <Compile Include="Content.aspx.designer.cs">
       <DependentUpon>Content.aspx</DependentUpon>
     </Compile>
+    <Compile Include="courses.aspx.cs">
+      <DependentUpon>courses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="courses.aspx.designer.cs">
+      <DependentUpon>courses.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="departments.aspx.cs">
+      <DependentUpon>departments.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="departments.aspx.designer.cs">
+      <DependentUpon>departments.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="students.aspx.cs">
+      <DependentUpon>students.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="students.aspx.designer.cs">
+      <DependentUpon>students.aspx</DependentUpon>
     </Compile>
     <Compile Include="User Controls\jumbotron.ascx.cs">
       <DependentUpon>jumbotron.ascx</DependentUpon>

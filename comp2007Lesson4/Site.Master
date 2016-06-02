@@ -30,6 +30,12 @@
         
         </asp:ContentPlaceHolder>
     </div>
+        <footer class="navbar navbar-fixed-bottom alert alert-info">
+        <div class="container">
+            <p>&copy; 2016 Contoso University</p>
+        </div>
+
+        </footer>
     </form>
 
     <script src="Scripts/jquery-2.2.3.min.js"></script>

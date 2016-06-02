@@ -33,7 +33,16 @@ namespace comp2007Lesson4
                 case "Home Page":
                     home.Attributes.Add("class", "active");
                     break;
-                case "Contact Us":
+                case "Students":
+                    students.Attributes.Add("class", "active");
+                    break;
+                case "Departments":
+                    departments.Attributes.Add("class", "active");
+                    break;
+                case "Courses":
+                    courses.Attributes.Add("class", "active");
+                    break;
+                case "Contact":
                     contact.Attributes.Add("class", "active");
                     break;
             }
