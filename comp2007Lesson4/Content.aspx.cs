@@ -13,5 +13,10 @@ namespace comp2007Lesson4
         {
 
         }
+
+        protected void SendButton_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }
